@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding-top:80px;
+    height: 3000px;
+    padding-left: 96px;
+    padding-right: 24px;
+    font-family: roboto,arial;
+}
+
+main{
+    padding-bottom: 50px;
+    background-color: rgb(235, 233, 233);
+
+}
+
+
+@media(min-width:1127px){
+    body{
+        margin-left: 166px;
+    }
+
+}
+
+
+
+.thumbnail{
+    width:100%;
+}
+
+
+p {
+    margin: 0;
+}
+
+.para{
+    margin-top: 0;
+    margin-bottom: 9px;
+    font-size:14px;
+    font-weight: 500;
+    line-height: 20px;
+    cursor: pointer;
+    
+}
+
+.video-dicrb{
+    display: grid;
+    grid-template-columns: 48px 1fr;
+
+}
+
+
+.profile-pic{
+    width: 36px;
+    border-radius: 50px;
+    cursor: pointer;    
+}
+
+.thumbnail-row {
+    margin-bottom:8px;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.ch-name{
+    font-size: 12px;
+    color: rgb(83, 81, 81);
+    margin-bottom: 4px;
+    cursor: pointer;    
+
+
+}
+
+.ch-stats{
+    font-size: 12px;
+    color: rgb(83, 81, 81);
+}
+
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap:20px;
+    row-gap: 40px;
+}
+
+
+@media(max-width: 870px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(min-width:870px) and (min-width:1125px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media(min-width:1126px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .para{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .ch-name,
+    .ch-stats{
+        font-size: 14px;
+    }
+    
+}
+
+
+.video-time{
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    position:absolute;
+    bottom: 12px;
+    right: 3px;
+    padding: 4px 4px;
+    border-radius:3px ;
+}
